@@ -1,0 +1,534 @@
+{
+    "config":{
+        "session_id":1472,
+        "currency":"USD",
+        "type":"custom",
+        "resort_id":"11",
+        "from_date":"2020-10-01",
+        "to_date":"2020-10-15",
+        "guest_num":4,
+        "num_divers":"1",
+        "num_courses":"2",
+        "num_non_divers":"1",
+        "num_rooms":"2",
+        "num_nights":"14",
+        "name":"Evolution Dive Resort",
+        "resort_url":"https:\/\/www.zubludiving.com\/resort\/evolution-dive-resort",
+        "location":"Malapascua",
+        "location_url":"https:\/\/www.zubludiving.com\/destination\/philippines\/visayas\/malapascua",
+        "image":"https:\/\/booking-dev.zubludiving.com\/storage\/znB7bIm3tnX3LiCUTo2XeUGWfih0qWFK8IMWQijs.jpeg",
+        "facilites":{
+            "data":[
+                {
+                    "id":9,
+                    "name":"Bar",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/CcNx4JbkOS9twRSFITk7xlM45fpG4EyHWhwLEfom.svg",
+                    "slug":"bar",
+                    "type":"included"
+                },
+                {
+                    "id":10,
+                    "name":"Beachfront Location",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/GxrkuQ2VZAgEn7hUDtuSHpRAX55NoMxqE7H8EefF.svg",
+                    "slug":"beachfront-location",
+                    "type":"included"
+                },
+                {
+                    "id":30,
+                    "name":"Restaurant",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/c8gOBupAQJjUeDlAj0J464F25R4mIP9x49WgiQEM.svg",
+                    "slug":"restaurant",
+                    "type":"included"
+                },
+                {
+                    "id":17,
+                    "name":"Free wifi",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/co3cr5cASncwWxuHUmAbRksIKQ7KMuQ5JAekAqxG.svg",
+                    "slug":"free-wifi",
+                    "type":"included"
+                },
+                {
+                    "id":31,
+                    "name":"Laundry Service",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/e6lOtzax20wThjQEU1XAtFap8lVqNAkKAwr1j2QM.svg",
+                    "slug":"laundry-service",
+                    "type":"included"
+                },
+                {
+                    "id":16,
+                    "name":"Sun deck",
+                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/tGkB2O23cVSbajRNbyqhJPJgj4qYKGhoI2ghklPR.svg",
+                    "slug":"sun-deck",
+                    "type":"included"
+                }
+            ]
+        },
+        "notifications":{
+            "data":[
+                {
+                    "id":2,
+                    "type":"warning",
+                    "title":"<div>Prices do not include local Marine Sanctuary Fees. PHP 150 per day for all Malapascua sites to be paid directly to the resort upon checkout.<\/div>",
+                    "stage":"sidebar"
+                }
+            ]
+        },
+        "stage_notifications":{
+            "data":[
+                {
+                    "id":3,
+                    "type":"approval",
+                    "title":"<div>We will match any comparable quote that comes in at a lower price at your time of booking.<\/div>",
+                    "stage":"review"
+                },
+                {
+                    "id":48,
+                    "type":"warning",
+                    "title":"<div><strong>Arrival Information<\/strong><br>For transfers from Cebu Airport, we recommend you arrive at the airport before 13:00 in order to guarantee your transfer to Malapascua in daylight hours. &nbsp;<br>If you arrive after 13:00 we cannot guarantee you can take the boat crossing to Malapascua due to coastguard restrictions.&nbsp; Therefore, if you arrive after 13:00, it is recommended to stay overnight in Cebu or Maya Port for transfer the next day.<\/div>",
+                    "stage":"transfer"
+                },
+                {
+                    "id":49,
+                    "type":"warning",
+                    "title":"<div><strong>Departure Information<\/strong><br>On your departure, we recommend taking a flight after 13:00 to give you sufficient time to travel from Malapascua to Cebu Airport.&nbsp; If your flight is before 13:00, we recommend you travel to Cebu the day before.<\/div>",
+                    "stage":"transfer"
+                }
+            ]
+        },
+        "activities":[
+            {
+                "id":2,
+                "name":"Dive",
+                "type":"diver",
+                "activities":[
+                    {
+                        "id":3,
+                        "title":"Relaxed Bundle",
+                        "sub_title":"26 dives (2 dives\/day)",
+                        "type":"diver",
+                        "price":702,
+                        "price_map":[
+
+                        ],
+                        "currency":"USD",
+                        "inclusion_text":"Dive tanks, weights, and belt, Dive Guide",
+                        "inclusions":{
+                            "data":[
+                                {
+                                    "id":7,
+                                    "name":"Dive tanks, weights, and belt",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/xHgcX4ef5c9pFAsH3NMJyFBIaMkGzDaNJSx5Mtrg.svg",
+                                    "slug":"dive-tanks-weights-and-belt",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":33,
+                                    "name":"Dive Guide",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/jR0gUdnxeM3t5QINATvlHjh9c5453uQzfathZQ5P.svg",
+                                    "slug":"dive-guide",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":46,
+                                    "name":"Boat Rides",
+                                    "icon":null,
+                                    "slug":"boat-rides",
+                                    "type":"included"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id":70,
+                        "title":"Explore Bundle",
+                        "sub_title":"39 dives (3 dives\/day)",
+                        "type":"diver",
+                        "price":1053,
+                        "price_map":[
+
+                        ],
+                        "currency":"USD",
+                        "inclusion_text":"Boat Rides, Dive Guide",
+                        "inclusions":{
+                            "data":[
+                                {
+                                    "id":46,
+                                    "name":"Boat Rides",
+                                    "icon":null,
+                                    "slug":"boat-rides",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":33,
+                                    "name":"Dive Guide",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/jR0gUdnxeM3t5QINATvlHjh9c5453uQzfathZQ5P.svg",
+                                    "slug":"dive-guide",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":7,
+                                    "name":"Dive tanks, weights, and belt",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/xHgcX4ef5c9pFAsH3NMJyFBIaMkGzDaNJSx5Mtrg.svg",
+                                    "slug":"dive-tanks-weights-and-belt",
+                                    "type":"included"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id":1,
+                "name":"Learn",
+                "type":"course",
+                "activities":[
+                    {
+                        "id":4,
+                        "title":"PADI Open Water Course",
+                        "sub_title":"4 day course - You will need to be able to swim 200 meters and float for 10 minutes without assistance to participate on this course",
+                        "type":"course",
+                        "price":393,
+                        "price_map":[
+
+                        ],
+                        "currency":"USD",
+                        "inclusion_text":"Full Equipment, Dive tanks, weights, and belt",
+                        "inclusions":{
+                            "data":[
+                                {
+                                    "id":5,
+                                    "name":"Full Equipment",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/0hc1Ax2jJDCSWGOiTqUjahpdwIcD8nEoce51ptM2.svg",
+                                    "slug":"full-equipment",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":7,
+                                    "name":"Dive tanks, weights, and belt",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/xHgcX4ef5c9pFAsH3NMJyFBIaMkGzDaNJSx5Mtrg.svg",
+                                    "slug":"dive-tanks-weights-and-belt",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":47,
+                                    "name":"Training provided by qualified Instructor",
+                                    "icon":null,
+                                    "slug":"training-provided-by-qualified-instructor",
+                                    "type":"included"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id":69,
+                        "title":"PADI Advanced Open Water Course",
+                        "sub_title":"2 day course - You need to be Open Water certified to participate in this course",
+                        "type":"course",
+                        "price":296,
+                        "price_map":[
+
+                        ],
+                        "currency":"USD",
+                        "inclusion_text":"All course materials and certification, Full Equipment",
+                        "inclusions":{
+                            "data":[
+                                {
+                                    "id":32,
+                                    "name":"All course materials and certification",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/DePTJYilBlBGWxEuGP9SaK3J5xj2Qbpueyaf18EN.svg",
+                                    "slug":"all-course-materials-and-certification",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Full Equipment",
+                                    "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/0hc1Ax2jJDCSWGOiTqUjahpdwIcD8nEoce51ptM2.svg",
+                                    "slug":"full-equipment",
+                                    "type":"included"
+                                },
+                                {
+                                    "id":47,
+                                    "name":"Training provided by qualified Instructor",
+                                    "icon":null,
+                                    "slug":"training-provided-by-qualified-instructor",
+                                    "type":"included"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"Relax",
+                "type":"non_diver",
+                "activities":[
+                    {
+                        "id":5,
+                        "title":"Non Divers",
+                        "sub_title":"Sit back and enjoy paradise",
+                        "type":"non_diver",
+                        "price":0,
+                        "price_map":[
+
+                        ],
+                        "currency":"USD",
+                        "inclusion_text":"",
+                        "inclusions":{
+                            "data":[
+
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "rooms":{
+            "data":[
+                {
+                    "id":10,
+                    "title":"Garden Fan Room",
+                    "sub_title":"2 single beds, sleeps 2 people",
+                    "price_per_night":50,
+                    "price_sub_total":692,
+                    "currency":"USD",
+                    "inclusion_text":"En-suite bathroom, Fan, Hot shower",
+                    "images":[
+                        "https:\/\/booking-dev.zubludiving.com\/imagecache\/roomthumb\/PSmuzs3mbGlRLAoqtFIzGspRTYGfvRIViP4ZeDhU.png"
+                    ],
+                    "inclusions":{
+                        "data":[
+                            {
+                                "id":20,
+                                "name":"En-suite bathroom",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/yhrNi1KfjMjkk9lDgL6zrAhPbYL1qNUaPylHJQMj.svg",
+                                "slug":"en-suite-bathroom",
+                                "type":"included"
+                            },
+                            {
+                                "id":22,
+                                "name":"Fan",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/2vaaerLsTmfzSzwSeCpfcJPpOEEDM1Q9aqrp7E1U.svg",
+                                "slug":"fan",
+                                "type":"included"
+                            },
+                            {
+                                "id":21,
+                                "name":"Hot shower",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/khZaZmcFR49IXbizsrjstGmiWYI4O7ac78mNZ2U3.svg",
+                                "slug":"hot-shower",
+                                "type":"included"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id":11,
+                    "title":"Deluxe AC Room",
+                    "sub_title":"2 x Queen Beds, Sleeps up to 4",
+                    "price_per_night":93,
+                    "price_sub_total":1291,
+                    "currency":"USD",
+                    "inclusion_text":"Air Conditioning, En-suite bathroom, Hot shower",
+                    "images":[
+                        "https:\/\/booking-dev.zubludiving.com\/imagecache\/roomthumb\/C0x3ZskOMYxKPn64VfexD4d87VarLOLmA1zGjEP4.jpeg"
+                    ],
+                    "inclusions":{
+                        "data":[
+                            {
+                                "id":18,
+                                "name":"Air Conditioning",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/KxpsDulG7pQJD9lOodapjYOWGhZ0xZDVosPJYrJn.svg",
+                                "slug":"air-conditioning",
+                                "type":"included"
+                            },
+                            {
+                                "id":20,
+                                "name":"En-suite bathroom",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/yhrNi1KfjMjkk9lDgL6zrAhPbYL1qNUaPylHJQMj.svg",
+                                "slug":"en-suite-bathroom",
+                                "type":"included"
+                            },
+                            {
+                                "id":21,
+                                "name":"Hot shower",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/khZaZmcFR49IXbizsrjstGmiWYI4O7ac78mNZ2U3.svg",
+                                "slug":"hot-shower",
+                                "type":"included"
+                            },
+                            {
+                                "id":19,
+                                "name":"Private Balcony",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/kGw0jNaOoved1OmXYvoeFl8ZQgL6iX5T9FpndosZ.svg",
+                                "slug":"private-balcony",
+                                "type":"included"
+                            },
+                            {
+                                "id":28,
+                                "name":"Safe",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/RUKKXYKXSrFDZx8kgr2RohJSTKahlGRhdxL1p4YH.svg",
+                                "slug":"safe",
+                                "type":"included"
+                            },
+                            {
+                                "id":29,
+                                "name":"TV",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/L55MpZdlTQ1OXGxCqfrCwOcHjR4JOWYsjwOKL0zf.svg",
+                                "slug":"tv",
+                                "type":"included"
+                            },
+                            {
+                                "id":22,
+                                "name":"Fan",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/2vaaerLsTmfzSzwSeCpfcJPpOEEDM1Q9aqrp7E1U.svg",
+                                "slug":"fan",
+                                "type":"included"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id":59,
+                    "title":"Ocean View Deluxe AC Room",
+                    "sub_title":"2 x Queen Beds, Sleeps up to 4",
+                    "price_per_night":101,
+                    "price_sub_total":1414,
+                    "currency":"USD",
+                    "inclusion_text":"Air Conditioning, En-suite bathroom, Hot shower",
+                    "images":[
+                        "https:\/\/booking-dev.zubludiving.com\/imagecache\/roomthumb\/Asct1z4hqrnDquDPhjG9iyMijwrGRz3d2QF9tjQu.jpeg"
+                    ],
+                    "inclusions":{
+                        "data":[
+                            {
+                                "id":18,
+                                "name":"Air Conditioning",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/KxpsDulG7pQJD9lOodapjYOWGhZ0xZDVosPJYrJn.svg",
+                                "slug":"air-conditioning",
+                                "type":"included"
+                            },
+                            {
+                                "id":20,
+                                "name":"En-suite bathroom",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/yhrNi1KfjMjkk9lDgL6zrAhPbYL1qNUaPylHJQMj.svg",
+                                "slug":"en-suite-bathroom",
+                                "type":"included"
+                            },
+                            {
+                                "id":21,
+                                "name":"Hot shower",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/khZaZmcFR49IXbizsrjstGmiWYI4O7ac78mNZ2U3.svg",
+                                "slug":"hot-shower",
+                                "type":"included"
+                            },
+                            {
+                                "id":23,
+                                "name":"Minibar",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/JZKEl7UrhAjZIYhsw9iUi1yoF4VJnE8ZIwDWhsTF.svg",
+                                "slug":"minibar",
+                                "type":"included"
+                            },
+                            {
+                                "id":27,
+                                "name":"Ocean view",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/tB6XTTlxIkavJBJHLRAkCGrefNfIskwtwvJYhB4U.svg",
+                                "slug":"ocean-view",
+                                "type":"included"
+                            },
+                            {
+                                "id":28,
+                                "name":"Safe",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/RUKKXYKXSrFDZx8kgr2RohJSTKahlGRhdxL1p4YH.svg",
+                                "slug":"safe",
+                                "type":"included"
+                            },
+                            {
+                                "id":29,
+                                "name":"TV",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/L55MpZdlTQ1OXGxCqfrCwOcHjR4JOWYsjwOKL0zf.svg",
+                                "slug":"tv",
+                                "type":"included"
+                            },
+                            {
+                                "id":22,
+                                "name":"Fan",
+                                "icon":"https:\/\/booking-dev.zubludiving.com\/storage\/2vaaerLsTmfzSzwSeCpfcJPpOEEDM1Q9aqrp7E1U.svg",
+                                "slug":"fan",
+                                "type":"included"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "transfers":{
+            "data":[
+                {
+                    "id":3,
+                    "title":"Return transfers between Cebu Airport\/Town and Evolution Dive Resort",
+                    "transfer_description":"Private transfer. Approximately 3 hours by road and then a 1 hour boat ride.",
+                    "price":277,
+                    "mandatory":false,
+                    "guest_num":4,
+                    "currency":"USD"
+                }
+            ]
+        },
+        "terms":"Payment Terms:\n - 20% deposit is required to confirm your booking\n - The remaining payment is due 30 days before your trip\n\nCancellation Policy:\n - More than 30 days before trip = 2,500 PHP administration fee\n - 7 to 30 days before trip = 20% cancellation fee\n - 3 to 6 days before trip = 50% cancellation fee\n - Less than 3 days = 100% cancellation fee",
+        "form_data":{
+            "activities":{
+                "3":1,
+                "5":1,
+                "4":2
+            },
+            "rooms":{
+                "10":2
+            },
+            "transfers":[
+
+            ],
+            "first_name":null,
+            "last_name":null,
+            "email":null,
+            "country":null,
+            "phone":null,
+            "remarks":null,
+            "read_terms":false
+        }
+    },
+    "pricing":{
+        "activites":[
+            {
+                "title":"Relaxed Bundle",
+                "sub_title":"26 dives \/ person",
+                "qty":1,
+                "price":702,
+                "sort":0,
+                "sub_total":702
+            },
+            {
+                "title":"PADI Open Water Course",
+                "sub_title":"",
+                "qty":2,
+                "price":393,
+                "sort":1,
+                "sub_total":786
+            },
+            {
+                "title":"Non Divers",
+                "sub_title":"",
+                "qty":1,
+                "price":0,
+                "sort":2,
+                "sub_total":0
+            }
+        ],
+        "rooms":[
+
+        ],
+        "transfers":[
+
+        ],
+        "total":1488
+    }
+}

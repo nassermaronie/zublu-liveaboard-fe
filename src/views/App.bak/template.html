@@ -1,0 +1,235 @@
+<div id="app">
+  <div class="app-main mb-5 pb-5">
+    <header class=" py-3 mb-sm-5 mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-lg-1">
+            <a href="https://www.zubludiving.com/"
+              ><img
+                src="https://www.zubludiving.com/css/img/logo-blue.svg"
+                alt=""
+                class="logo"
+            /></a>
+          </div>
+          <div
+            class="col-12 d-sm-none d-flex justify-content-between align-items-center mt-5 breadcrumbs-mobile"
+            v-if="!hideBreadcrumbs"
+          >
+            <div>
+              <router-link
+                :to="{ path: 'activities', query: $route.query }"
+                class="active"
+                v-if="step == 2"
+                ><svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.25017 8.70711C0.859645 8.31658 0.859644 7.68342 1.25017 7.29289L8.39662 0.146446C8.59188 -0.0488155 8.90847 -0.0488155 9.10373 0.146446C9.29899 0.341709 9.29899 0.658291 9.10373 0.853554L1.95728 8L9.10373 15.1464C9.29899 15.3417 9.29899 15.6583 9.10373 15.8536C8.90847 16.0488 8.59188 16.0488 8.39662 15.8536L1.25017 8.70711Z"
+                    fill="#1695A3"
+                  />
+                </svg>
+                Activities</router-link
+              >
+              <router-link
+                :to="{ path: 'rooms', query: $route.query }"
+                class="active"
+                v-if="step == 3"
+                ><svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.25017 8.70711C0.859645 8.31658 0.859644 7.68342 1.25017 7.29289L8.39662 0.146446C8.59188 -0.0488155 8.90847 -0.0488155 9.10373 0.146446C9.29899 0.341709 9.29899 0.658291 9.10373 0.853554L1.95728 8L9.10373 15.1464C9.29899 15.3417 9.29899 15.6583 9.10373 15.8536C8.90847 16.0488 8.59188 16.0488 8.39662 15.8536L1.25017 8.70711Z"
+                    fill="#1695A3"
+                  />
+                </svg>
+                Rooms</router-link
+              >
+              <router-link
+                :to="{ path: 'transfers', query: $route.query }"
+                class="active"
+                v-if="step == 4"
+                ><svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.25017 8.70711C0.859645 8.31658 0.859644 7.68342 1.25017 7.29289L8.39662 0.146446C8.59188 -0.0488155 8.90847 -0.0488155 9.10373 0.146446C9.29899 0.341709 9.29899 0.658291 9.10373 0.853554L1.95728 8L9.10373 15.1464C9.29899 15.3417 9.29899 15.6583 9.10373 15.8536C8.90847 16.0488 8.59188 16.0488 8.39662 15.8536L1.25017 8.70711Z"
+                    fill="#1695A3"
+                  />
+                </svg>
+                Transfers</router-link
+              >
+              <router-link
+                :to="{ path: 'details', query: $route.query }"
+                class="active"
+                v-if="step == 5"
+                ><svg
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.25017 8.70711C0.859645 8.31658 0.859644 7.68342 1.25017 7.29289L8.39662 0.146446C8.59188 -0.0488155 8.90847 -0.0488155 9.10373 0.146446C9.29899 0.341709 9.29899 0.658291 9.10373 0.853554L1.95728 8L9.10373 15.1464C9.29899 15.3417 9.29899 15.6583 9.10373 15.8536C8.90847 16.0488 8.59188 16.0488 8.39662 15.8536L1.25017 8.70711Z"
+                    fill="#1695A3"
+                  />
+                </svg>
+                Details</router-link
+              >
+            </div>
+
+            <span>Step {{ step }}/5</span>
+          </div>
+          <div
+            class="col col-lg-10 d-none d-sm-flex align-items-center justify-content-lg-center justify-content-end breadcrumbs"
+            v-if="!hideBreadcrumbs"
+          >
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <router-link
+                  :to="{ path: 'activities', query: $route.query }"
+                  :class="{ active: step == 1 }"
+                  >Activities</router-link
+                >
+                <span
+                  ><svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.75001 7.29289C9.14053 7.68342 9.14053 8.31658 8.75001 8.70711L1.60355 15.8536C1.40829 16.0488 1.09171 16.0488 0.896447 15.8536C0.701184 15.6583 0.701184 15.3417 0.896447 15.1464L8.0429 8L0.896447 0.853553C0.701184 0.658291 0.701184 0.341709 0.896447 0.146447C1.09171 -0.0488155 1.40829 -0.0488155 1.60355 0.146447L8.75001 7.29289Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <router-link
+                  :to="{ path: 'rooms', query: $route.query }"
+                  :class="{ disabled: step < 2, active: step == 2 }"
+                  >Rooms</router-link
+                >
+                <span
+                  ><svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.75001 7.29289C9.14053 7.68342 9.14053 8.31658 8.75001 8.70711L1.60355 15.8536C1.40829 16.0488 1.09171 16.0488 0.896447 15.8536C0.701184 15.6583 0.701184 15.3417 0.896447 15.1464L8.0429 8L0.896447 0.853553C0.701184 0.658291 0.701184 0.341709 0.896447 0.146447C1.09171 -0.0488155 1.40829 -0.0488155 1.60355 0.146447L8.75001 7.29289Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <router-link
+                  :to="{ path: 'transfers', query: $route.query }"
+                  :class="{ disabled: step < 3, active: step == 3 }"
+                  >Transfers</router-link
+                >
+                <span
+                  ><svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.75001 7.29289C9.14053 7.68342 9.14053 8.31658 8.75001 8.70711L1.60355 15.8536C1.40829 16.0488 1.09171 16.0488 0.896447 15.8536C0.701184 15.6583 0.701184 15.3417 0.896447 15.1464L8.0429 8L0.896447 0.853553C0.701184 0.658291 0.701184 0.341709 0.896447 0.146447C1.09171 -0.0488155 1.40829 -0.0488155 1.60355 0.146447L8.75001 7.29289Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <router-link
+                  :to="{ path: 'details', query: $route.query }"
+                  :class="{ disabled: step < 4, active: step == 4 }"
+                  >Details</router-link
+                >
+                <span
+                  ><svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.75001 7.29289C9.14053 7.68342 9.14053 8.31658 8.75001 8.70711L1.60355 15.8536C1.40829 16.0488 1.09171 16.0488 0.896447 15.8536C0.701184 15.6583 0.701184 15.3417 0.896447 15.1464L8.0429 8L0.896447 0.853553C0.701184 0.658291 0.701184 0.341709 0.896447 0.146447C1.09171 -0.0488155 1.40829 -0.0488155 1.60355 0.146447L8.75001 7.29289Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <router-link
+                  :to="{ path: 'review', query: $route.query }"
+                  :class="{ disabled: step < 5, active: step == 5 }"
+                  >Review</router-link
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <router-view />
+  </div>
+  <footer class="body-n mt-5">
+    <div class="container">
+      <div class="py bottom">
+        <div class="d-flex align-items-center">
+          <div class="left">
+            <div class="d-flex align-items-center">
+              <div class="date">
+                © 2020 ZuBlu
+              </div>
+              <a href="/terms-conditions">Terms &amp; Conditions</a>
+              <a href="/terms-of-website-use">Terms of use</a>
+              <a href="/privacy-policy">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="right">
+            <span>ZuBlu is Asia’s leading dive travel company</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
